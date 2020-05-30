@@ -1,0 +1,1 @@
+{"rustc":10461004854123552879,"features":"[]","target":12569588586836240884,"profile":9935990280773120926,"path":11928494052486475292,"deps":[[12959272399517362647,"log",false,1620593760420290222]],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/kv-log-macro-d1097abfce9cf718/dep-lib-kv_log_macro-d1097abfce9cf718"}}],"rustflags":[],"metadata":777285229669530599}

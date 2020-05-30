@@ -1,0 +1,13 @@
+/media/hamza/linux/Coding/rust/async rust/async-03/target/debug/deps/piper-96a5fd84a9a34e5a.rmeta: /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/lib.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/arc.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/chan.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/event.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/lock.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/mutex.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/pipe.rs
+
+/media/hamza/linux/Coding/rust/async rust/async-03/target/debug/deps/libpiper-96a5fd84a9a34e5a.rlib: /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/lib.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/arc.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/chan.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/event.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/lock.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/mutex.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/pipe.rs
+
+/media/hamza/linux/Coding/rust/async rust/async-03/target/debug/deps/piper-96a5fd84a9a34e5a.d: /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/lib.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/arc.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/chan.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/event.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/lock.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/mutex.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/pipe.rs
+
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/lib.rs:
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/arc.rs:
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/chan.rs:
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/event.rs:
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/lock.rs:
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/mutex.rs:
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/piper-0.1.2/src/pipe.rs:

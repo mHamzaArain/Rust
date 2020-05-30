@@ -1,0 +1,11 @@
+/media/hamza/linux/Coding/rust/async rust/async-02-block_om/target/debug/deps/futures_core-668afd9a70463179.rmeta: /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/lib.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/future.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/stream.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/task/mod.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/task/poll.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/task/__internal/mod.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/task/__internal/atomic_waker.rs
+
+/media/hamza/linux/Coding/rust/async rust/async-02-block_om/target/debug/deps/futures_core-668afd9a70463179.d: /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/lib.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/future.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/stream.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/task/mod.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/task/poll.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/task/__internal/mod.rs /home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/task/__internal/atomic_waker.rs
+
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/lib.rs:
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/future.rs:
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/stream.rs:
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/task/mod.rs:
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/task/poll.rs:
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/task/__internal/mod.rs:
+/home/hamza/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-core-0.3.5/src/task/__internal/atomic_waker.rs:
