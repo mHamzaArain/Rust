@@ -1,0 +1,120 @@
+######################################### Installation
+
+1. ####### Rust
+Rust     : curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+itm      : cargo install itm --vers 0.3.1
+llvm     : sudo bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"  
+binutils : cargo install cargo-binutils --vers 
+		-> cargo size -- -version 0.1.4  
+		-> cargo install cargo-binutils --version 0.1.4
+
+2. ###### GDB, Open OCD, Minicom  -> sudo apt-get install gdb-multiarch minicom openocd
+
+3. ###### (optional for Bluetooth, wireless)  -> sudo apt-get install bluez rfkill
+
+########################################## Working
+
+############################## Connecting STM to PC
+# Need to know bus no. & device no.
+lsusb | grep -i stm
+
+
+############################## To find permission of peripherial
+ls -l /dev/bus/usb/001/006
+
+
+############################## Open OCD to establish connections
+cd /tmp
+openocd -f interface/stlink-v2-1.cfg -f target/stm32f3x.cfg
+
+
+############################## Linux: Udev Rules
+# Previdge without sudo
+
+cd /etc/udev/rules.d/
+touch 99-ftdi.rules
+nano 99-ftdi.rules
+	|
+	-> # FT323 -USB <-> Serial Connector
+	   ATTRS {idVendor}=="0403", ATTRS {idProduct}=="6001", MODE:="0666"
+cat 99-ftdi.rules
+
+############################# 
+
+
+rustup target add thumbv7em-none-eabihf
+
+
+cargo build --target thumbv7em-none-eabihf
+
+cd /media/hamza/linux/Coding/rust/unsafe rust/embeddedCode
+gdb-multiarch -q target/thumbv7em-none-eabihf/debug/embeddedCode
+
+cargo run
+
+cargo run --release
+
+// Show all instructions in debug mode in assembly language
+cargo objdump --bin registers -- -d -no-show-raw-insn -print-imm-hex -source
+
+// Show all instructions in release mode in assembly language
+cargo objdump --bin registers --release -- -d -no-show-raw-insn -print-imm-hex -source
+
+/////////////////// GDB Session
+target remote :3333
+
+// To load program 
+(gdb) load
+
+// break command is to break program at certain point
+(gdb) break main
+
+// This commmand will take us to 1 break point to another breakpoint
+(gdb) continue
+
+// To switch Terminal User Interface(TUI)
+(gdb) layout src
+
+// To disable TUI
+(gdb) tui disable
+
+// Resetting to initial state while debugging
+(gdb) monitor reset halt
+
+// Terminating gdb session
+(gdb) qui
+
+// For moving next line 
+(gdb) step
+
+// For printing values for variables
+(gdb) print
+
+// for printing all values fof variables at once
+(gdb) Info locals
+
+// For  cleaning TUI screen
+(gdb) Cear shell
+
+
+/////////////////////// Serial Module
+
+dmesg | grep -i tty
+
+// Show permissions
+ls -l /dev/ttyUSB0
+
+// Cheching Communication
+echo "Hello, World" > /dev/ttyUSB0
+
+// To read data from this file for minicom
+minicom -D /dev/ttyUSB0 -b 115200
+
+//// Minincom file to be in home directory as .minirc.dfl
+
+pu baudrate 115200     // Sets baud rate to 115200 bps.   
+pu bits 8	        // 8 bits per frame.
+pu parity N	        // No parity check.
+pu stopbits 1		// 1 stop bit.
+pu rtscts No		// Np hardware control flow.
+pu xonxoff No		// No software control flow.
